@@ -14,19 +14,13 @@ The open source coding agent in your IDE and terminal.
 <table>
 <tbody>
 <td align="center">
-<a href="https://docs.Cerebriline.bot" target="_blank"><strong>Docs</strong></a>
+<a href="#placeholder" target="_blank"><strong>Docs</strong></a>
 </td>
 <td align="center">
-<a href="https://discord.gg/Cerebriline" target="_blank"><strong>Discord</strong></a>
+<a href="https://discord.gg/CuE9Jaggp" target="_blank"><strong>Discord</strong></a>
 </td>
 <td align="center">
-<a href="https://www.reddit.com/r/Cerebriline/" target="_blank"><strong>r/Cerebriline</strong></a>
-</td>
-<td align="center">
-<a href="https://github.com/Cerebriline/Cerebriline/discussions/categories/feature-requests?discussions_q=is%3Aopen+category%3A%22Feature+Requests%22+sort%3Atop" target="_blank"><strong>Feature Requests</strong></a>
-</td>
-<td align="center">
-<a href="https://Cerebriline.bot/join-us" target="_blank"><strong>Join us!</strong></a>
+<a href="#placeholder" target="_blank"><strong>Feature Requests</strong></a>
 </td>
 </tbody>
 </table>
@@ -46,28 +40,13 @@ The open source coding agent in your IDE and terminal.
 Run Cerebriline in your terminal.
 Interactive chat or fully headless
 for CI/CD and scripting.
-
+<!--
 ```
 npm i -g Cerebriline
 ```
+-->
 
 <a href="./apps/cli/README.md">Learn more</a>
-<br><br>
-
-</td>
-<td align="center" width="50%">
-
-### Kanban
-
-Run many agents in parallel from a
-web-based task board. Each card gets its own
-worktree, auto-commit, and dependency chains.
-
-```
-npm i -g kanban
-```
-
-<a href="https://github.com/Cerebriline/kanban">Learn more</a>
 <br><br>
 
 </td>
@@ -81,20 +60,11 @@ AI coding assistant in your editor.
 Create files, run commands, browse the web,
 and use tools with human-in-the-loop approval.
 
-<!-- <a href="https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev">Install from VS Marketplace</a> --!>
+<!--
+<a href="https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev">Install from VS Marketplace</a>
 <br><br> 
-
+-->
 </td>
-<td align="center" width="50%">
-
-### JetBrains Plugin
-
-The same Cerebriline experience in IntelliJ IDEA,
-PyCharm, WebStorm, GoLand, and the rest of
-the JetBrains family.
-
-<a href="https://plugins.jetbrains.com/plugin/28247-Cerebriline">Install from JetBrains Marketplace</a>
-<br><br>
 
 </td>
 </tr>
@@ -110,11 +80,13 @@ the JetBrains family.
 
 Build your own AI agents and integrations powered by the same engine that runs the CLI, Kanban, VS Code extension, and JetBrains plugin. Custom tools, multi-agent teams, connectors, scheduled automations, and more.
 
+<!--
 ```
 npm install @Cerebriline/sdk
 ```
+-->
 
-<a href="https://docs.Cerebriline.bot/Cerebriline-sdk/overview">Documentation</a>
+<a href="#placeholder">Documentation</a>
 <br><br>
 
 </td>
@@ -128,12 +100,12 @@ npm install @Cerebriline/sdk
 
 | Product | Description | Location | CHANGELOG |
 |---------|------------|--------------|--------------|
-| **SDK** | Node.js programmatic agent API and extension exports. | [`sdk/`](https://github.com/Cerebriline/Cerebriline/tree/main/sdk) | [CHANGELOG.md](https://github.com/Cerebriline/Cerebriline/blob/main/sdk/CHANGELOG.md) |
-| **CLI** | Terminal UI, headless mode, shell commands, and CLI-specific flows. | [`apps/cli/`](https://github.com/Cerebriline/Cerebriline/tree/main/apps/cli) | [CHANGELOG.md](https://github.com/Cerebriline/Cerebriline/blob/main/apps/cli/CHANGELOG.md) |
-| **VS Code Extension** | The Marketplace extension and extension host integration. | [`/`](https://github.com/Cerebriline/Cerebriline/tree/main) (WIP migrating) | [CHANGELOG.md](https://github.com/Cerebriline/Cerebriline/blob/main/CHANGELOG.md) |
+| **SDK** | Node.js programmatic agent API and extension exports. | [`sdk/`](#) | [CHANGELOG.md](#) |
+| **CLI** | Terminal UI, headless mode, shell commands, and CLI-specific flows. | [`apps/cli/`](#) | [CHANGELOG.md](#) |
+| **VS Code Extension** | The Marketplace extension and extension host integration. | [`/`](#) (WIP migrating) | [CHANGELOG.md](#) |
 | **JetBrains Plugin** | JetBrains-hosted client that talks to the shared agent core. | Currently we are not open-sourcing JetBrains plugins | - |
-| **Kanban** | Web-based multi-agent task board. | [`Cerebriline/kanban`](https://github.com/Cerebriline/kanban) | [CHANGELOG.md](https://github.com/Cerebriline/kanban/blob/main/CHANGELOG.md) |
-| **Docs site** | Public documentation pages. | [`docs/`](https://docs.Cerebriline.bot/) | - |
+| **Kanban** | Web-based multi-agent task board. | [`Cerebriline/kanban`](#) | [CHANGELOG.md](#) |
+| **Docs site** | Public documentation pages. | [`docs/`](#) | - |
 
 ## Edits Code Across Your Project
 
